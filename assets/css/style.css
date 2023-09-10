@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 11px;
+    color: rgb(105, 103, 103);
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #ececec;
+}
+
+.principal img {
+    width: 250px;
+    padding: 10px;
+}
+
+.principal p {
+    font-size: 13px;
+}
+
+.contactos {
+    width: 300px;
+}
+
+nav {
+    border: solid 1px;
+    border-color: rgb(139, 137, 137);
+}
+
+nav .maria .info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .icons i {
+    padding: 4PX;
+}
+
+.contactos .maria{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.contactos .maria img {
+    padding-right: 8px;
+    width: 40px;
+}
+
+.contactos_lista {
+    width: 200px;
+}
+
+.contactos_lista .contacto {
+    display: flex;
+    width: 244px;
+    border: solid 1px;
+    border-color: rgb(139, 137, 137);
+    border-bottom: 0px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+
+.contacto:hover {
+    background-color: rgba(122, 0, 136, 0.068);
+}
+
+.contactos_lista .contacto img{ 
+    width: 40px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.contactos_lista .contacto .info {
+    padding: 5px;
+}
+
+.contactos .contactos_nuevochat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-right: solid 1px;
+    border-color: rgb(164, 145, 210);
+}
+
+.contactos .contactos_nuevochat button {
+    background-color: rgb(164, 145, 210);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-color: rgb(164, 145, 210);
+    border: solid 0px;
+}
+
+.contactos .contactos_nuevochat button:hover {
+    background-color: rgb(74, 1, 82);
+}
+
+
+.contactos nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.contactos nav img{ 
+    width: 50px;
+    border-radius: 30px;
+}
+
